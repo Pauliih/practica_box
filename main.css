@@ -1,0 +1,82 @@
+/*SELECTORES*/
+
+/*Selector de clases*/
+.square2{
+	background-color: orange;
+}
+
+
+/* Selector universal
+
+* {
+  border: 1px solid black;
+}
+*/
+
+
+/* le sacamos la linea al enlace*/
+a{
+	color:white;
+	text-decoration: none;	
+}
+
+div{
+	  border: 1px solid black;
+}
+
+h1,h2{
+	color: white;
+	text-align: center;
+}
+
+/*Anidado*/
+ol li{
+	color:grey;
+}
+
+.square2 ol li:last-child{
+	color:purple;
+}
+
+img{
+	position: center
+}
+
+li:first-of-type + li{
+	color:black;
+}
+
+/*Selector id*/
+#titulo1{
+	color:turquoise;
+}
+
+.caja{
+	background-color: orange;
+	padding: 1em;
+	border: 1em dashed darkred;
+	/*display: none; elimina el elemento*/
+
+}
+
+
+.caja2{
+	background-color: darkred;
+	padding-top: 1em;
+	margin-top: 1em;
+	visibility: hidden;/*Solo oculta*/
+}
+
+/*Body tiene 8 px por defecto de margen*/
+body{
+	background-color: black;
+	/*margin: 0;*/
+}
+
+.caja3{
+	background-color: green;
+	text-align: center;
+	padding: 1em;
+	border: 1em dashed yellow;
+
+}
